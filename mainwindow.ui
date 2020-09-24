@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>小</string>
+     </property>
+     <addaction name="action_3"/>
+     <addaction name="action_6"/>
+     <addaction name="action_9"/>
+    </widget>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>中</string>
+     </property>
+     <addaction name="action_4"/>
+     <addaction name="action_7"/>
+     <addaction name="action_10"/>
+    </widget>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>大</string>
+     </property>
+     <addaction name="action_5"/>
+     <addaction name="action_8"/>
+     <addaction name="action_11"/>
+    </widget>
+    <addaction name="menu_2"/>
+    <addaction name="menu_3"/>
+    <addaction name="menu_4"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_3">
+   <property name="text">
+    <string>低阶</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>低阶</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>低阶</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>中阶</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>中阶</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>中阶</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>高阶</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>高阶</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>高阶</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
