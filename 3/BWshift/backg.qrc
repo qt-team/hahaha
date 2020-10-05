@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/zqy/Desktop/QQ图片20200927164859.jpg</file>
+        <file>C:/Users/zqy/Desktop/声音开1.png</file>
+        <file>C:/Users/zqy/Desktop/声音关1.png</file>
+        <file>C:/Users/zqy/Desktop/1155116835193446_b.jpg</file>
+        <file>C:/Users/zqy/Desktop/230543kwwonap0fwmztw25.jpg</file>
+        <file>C:/Users/zqy/Desktop/图片2.png</file>
+        <file>C:/Users/zqy/Desktop/1.jpg</file>
+        <file>C:/Users/zqy/Desktop/2.jpg</file>
+        <file>C:/Users/zqy/Desktop/3.jpg</file>
+        <file>C:/Users/zqy/Desktop/4.JPG</file>
+        <file>C:/Users/zqy/Desktop/5.JPG</file>
+        <file>C:/Users/zqy/Desktop/6.JPG</file>
+        <file>C:/Users/zqy/Desktop/7.JPG</file>
+    </qresource>
+</RCC>
